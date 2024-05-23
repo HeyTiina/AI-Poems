@@ -49,13 +49,15 @@ h1 {
   font-size: 15px;
 }
 
-.poem {
+.text {
   padding: 20px;
+  margin: 0px 20%;
   font-size: 18px;
   line-height: 2;
+  justify-content: center;
 }
 
-.poem strong {
+.text strong {
   color: #885df1;
 }
 
@@ -67,7 +69,7 @@ footer {
   position: inherit;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 a {
