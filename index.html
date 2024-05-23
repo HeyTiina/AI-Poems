@@ -1,14 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Poems Generator</title>
-</head>
-<body>
-    <div>
-        <h1>Poems Generator </h1>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container-main">
+      <header>
+        <div>
+          <h1>AI Poems Generator</h1>
+        </div>
+      </header>
+      <main>
+        <!-- form -->
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <!-- submit button -->
+          <input type="submit" class="submit-button" />
+        </form>
+        <!-- output poem -->
+        <div class="poem">
+          I told my dog to fetch the stick,
+          <br />
+          he brought back my shoe real quick!
+        </div>
+      </main>
     </div>
-    
-</body>
+
+    <!-- footer -->
+    <script src="src/index.js"></script>
+    <footer class="p-3 mt-5 text-center bgc-white">
+      This project was coded by
+      <a href="https://github.com/HeyTiina" target="_blank"
+        >Valentina Bastidas C.</a
+      >, is
+      <a href="https://github.com/HeyTiina/VanillaMeteo" target="_blank"
+        >open-sourced on GitHub</a
+      >
+      and
+      <a href="https://www.netlify.com/" target="_blank">hosted on Netlify</a>
+    </footer>
+
+    <!-- script -->
+    <script src="src/index.js"></script>
+  </body>
 </html>
