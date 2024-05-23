@@ -7,7 +7,8 @@ body {
   background-color: #c9fdd7;
   margin: 20px;
   border-radius: 30px;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 
 h1 {
@@ -41,10 +42,25 @@ h1 {
   background-color: #4b7fd4;
 }
 
-.poem {
-  padding-top: 50px;
-  font-size: 20px;
+.hint {
   line-height: 1.5;
+  margin-top: 10px;
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.poem {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.poem strong {
+  color: #885df1;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
@@ -61,4 +77,19 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
